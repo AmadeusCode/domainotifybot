@@ -1,0 +1,20 @@
+{
+  "name": "domainotifybot",
+  "version": "1.0.0",
+  "description": "This bot notifies you if the domain registration period is coming to an end. You can add domains of interest and get notifications if it becomes available soon.",
+  "main": "index.js",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "mongoose": "^5.11.4",
+    "telegraf": "^3.38.0",
+    "whois": "^2.13.3",
+    "whois-to-json": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "run": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aleksey Umanchenko",
+  "license": "MIT"
+}
